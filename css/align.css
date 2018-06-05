@@ -1,0 +1,7 @@
+.centered {
+  display: flex;
+  justify-content: center; }
+
+.centered--mobile {
+  display: flex;
+  justify-content: center; }

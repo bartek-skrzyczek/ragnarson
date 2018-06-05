@@ -1,0 +1,6 @@
+main .main-wrapper {
+  display: flex; }
+  main .main-wrapper aside {
+    flex: 0 0 50%; }
+  main .main-wrapper article {
+    flex: 0 0 50%; }

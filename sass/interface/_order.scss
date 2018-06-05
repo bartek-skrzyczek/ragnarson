@@ -1,0 +1,9 @@
+.order-1 {
+  order: 1;
+}
+
+@media only screen and (max-width: $screen-sm-max) {
+  .display-flex--order1mdUp {
+    order: 1;
+  }
+}

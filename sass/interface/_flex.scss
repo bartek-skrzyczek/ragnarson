@@ -1,0 +1,17 @@
+.order-1 {
+  order: 1;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+
+
+@media only screen and (min-width: $screen-md) {
+  .display-flex {
+    &--fullWidthmdUp {
+      flex: 0 0 100%;
+    }
+  }
+}

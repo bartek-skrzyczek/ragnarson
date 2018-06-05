@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'MontserratAlternates-Regular';
+  src: url("../app/fonts/MontserratAlternates-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../app/fonts/MontserratAlternates-Regular.woff2") format("woff2"), url("../app/fonts/MontserratAlternates-Regular.woff") format("woff"); }
+
+body {
+  font-family: 'MontserratAlternates-Regular';
+  font-size: 16px;
+  line-height: 1.5; }

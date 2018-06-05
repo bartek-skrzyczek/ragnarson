@@ -1,0 +1,37 @@
+.btn {
+  border: none;
+  transition: all 0.3s ease 0s;
+  border-radius: 0.2em;
+  text-decoration: none;
+  @extend .display-inline-block;
+  &:hover {
+    transform: translate(0px, -0.3em);
+  }
+  &:active {
+    transform: translate(0px, 0.5em);
+  }
+  &--primary {
+    background: $btn--primary;
+    @extend .color-white;
+    @extend .ptb-0-5-plr-1;
+    &:hover {
+      background: darken($btn--primary, 10%);
+    }
+  }
+
+  &--create {
+    @extend .color-white;
+    @extend .bg--pink;
+    @extend .ptb-0-5-plr-0-8;
+    &:hover {
+      background: darken($btn--pink, 10%);
+    }
+  }
+
+  &--contact {
+    @extend .color-white;
+    @extend .ptb-0-5-plr-0-8;
+    background: transparent;
+    border: 1px #fff solid;
+  }
+}

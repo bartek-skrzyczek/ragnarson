@@ -1,0 +1,13 @@
+.display-flex {
+  &--flex-column {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: $screen-sm-max) {
+  .display-flex {
+    &--fullWidthSmMaxDown {
+      flex-direction: row;
+    }
+  }
+}

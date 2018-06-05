@@ -1,0 +1,296 @@
+--- --- html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+.container-fluid {
+  width: 100%;
+  padding: 0 20px;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box; }
+
+.row {
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto; }
+
+@media only screen and (min-width: 1280px) {
+  .row {
+    max-width: 60em; } }
+
+@media only screen and (min-width: 1440px) {
+  .row {
+    max-width: 75em; } }
+
+.display-grid--twoContainers-33-66 {
+  grid-template-columns: 100%; }
+
+@media only screen and (min-width: 992px) {
+  .display-grid--twoContainers-40-60 {
+    grid-template-columns: 40% 60%; } }
+
+.ta-center {
+  text-align: center; }
+
+.display-flex--alignCenter {
+  align-items: center; }
+
+.display-flex--justifyCenter {
+  justify-content: center; }
+
+.display-flex--displayColumn {
+  flex-direction: column; }
+
+.display-flex--floatedLeft {
+  margin-left: auto; }
+
+@media only screen and (min-width: 992px) {
+  .display-flex--displayRowMdUp {
+    flex-direction: row; }
+  .display-flex--displayColumnMdUp {
+    flex-direction: column; } }
+
+@media only screen and (max-width: 991px) {
+  .display-flex--alignCenterSmMaxDown {
+    justify-content: center; }
+  .display-flex--displayRowSmMaxDown {
+    flex-direction: row; } }
+
+.bg--plain-gray {
+  background: #E3E3E3; }
+
+.bg--dark-theme {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#272c37+0,272c37+100&0.98+0,1+15,1+100,0.76+100 */
+  background: -moz-linear-gradient(top, rgba(39, 44, 55, 0.98) 0%, #272c37 15%, rgba(39, 44, 55, 0.76) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(39, 44, 55, 0.98) 0%, #272c37 15%, rgba(39, 44, 55, 0.76) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(39, 44, 55, 0.98) 0%, #272c37 15%, rgba(39, 44, 55, 0.76) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa272c37', endColorstr='#c2272c37',GradientType=0 );
+  /* IE6-9 */ }
+
+.bg--pink, .btn--create {
+  background: #D7345A; }
+
+.display-flex {
+  display: flex; }
+
+.display-block {
+  display: block; }
+
+.display-inline-block, .btn {
+  display: inline-block; }
+
+.display-grid {
+  display: grid; }
+
+.display-flex--flex-column {
+  flex-direction: column; }
+
+@media only screen and (max-width: 991px) {
+  .display-flex--fullWidthSmMaxDown {
+    flex-direction: row; } }
+
+.list-style-type-none {
+  list-style-type: none; }
+
+.ptb-1-5 {
+  padding: 1.5em 0; }
+
+.ptb-0-5-plr-1, .btn--primary {
+  padding: 0.5em 1em; }
+
+.ptb-0-5-plr-0-8, .btn--create, .btn--contact {
+  padding: 0.5em 0.8em; }
+
+.ptb-0-5-plr-4 {
+  padding: 0.5em 4em; }
+
+.ptb-3 {
+  padding: 3em 0; }
+
+.ptb-5 {
+  padding: 5em 0; }
+
+.ma-0-5 {
+  margin: 0.5em; }
+
+.ma-1 {
+  margin: 1em; }
+
+.ma-b-0-25 {
+  margin-bottom: 0.25em; }
+
+.ma-b-1 {
+  margin-bottom: 1em; }
+
+.ma-tb-0-5 {
+  margin: 0.5em 0; }
+
+.ma-tb-1 {
+  margin: 1em 0; }
+
+@font-face {
+  font-family: 'MontserratAlternates-Regular';
+  src: url("../app/fonts/MontserratAlternates-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../app/fonts/MontserratAlternates-Regular.woff2") format("woff2"), url("../app/fonts/MontserratAlternates-Regular.woff") format("woff"); }
+
+body {
+  font-family: 'MontserratAlternates-Regular';
+  font-size: 16px;
+  line-height: 1.5; }
+
+.fs-1 {
+  font-size: 1em; }
+
+.fs-1-5 {
+  font-size: 1.5em; }
+
+.fs-2-2 {
+  font-size: 2.2em; }
+
+.text__small {
+  font-size: 1em; }
+
+.text__large {
+  font-size: 1.5em; }
+
+.color-white, .btn--primary, .btn--create, .btn--contact {
+  color: #fff; }
+
+.color-gray {
+  color: #808080; }
+
+@media only screen and (min-width: 992px) {
+  .width-60-md-up {
+    width: 60%; } }
+
+.width-auto, .user-avatar {
+  width: auto; }
+
+.height-5, .user-avatar {
+  height: 5em; }
+
+.order-1 {
+  order: 1; }
+
+@media only screen and (max-width: 991px) {
+  .display-flex--order1mdUp {
+    order: 1; } }
+
+.order-1 {
+  order: 1; }
+
+.flex-wrap {
+  flex-wrap: wrap; }
+
+@media only screen and (min-width: 992px) {
+  .display-flex--fullWidthmdUp {
+    flex: 0 0 100%; } }
+
+.btn {
+  border: none;
+  transition: all 0.3s ease 0s;
+  border-radius: 0.2em;
+  text-decoration: none; }
+  .btn:hover {
+    transform: translate(0px, -0.3em); }
+  .btn:active {
+    transform: translate(0px, 0.5em); }
+  .btn--primary {
+    background: #3676CD; }
+    .btn--primary:hover {
+      background: #295ea7; }
+  .btn--create:hover {
+    background: #b42445; }
+  .btn--contact {
+    background: transparent;
+    border: 1px #fff solid; }
+
+.logo {
+  width: 3em;
+  height: auto; }
+  .logo--color {
+    fill: #D7345A; }
+
+.line {
+  border-bottom: 1px solid #ccc; }

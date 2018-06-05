@@ -1,0 +1,48 @@
+@import 'variables';
+@import '../interface/padding';
+
+.btn {
+  border: none;
+  transition: all 0.3s ease 0s;
+  border-radius: 0.2em;
+  @extend .display-inline-block;
+  @extend .ptb-0-5-plr-1;
+  text-decoration: none;
+  @extend .fs-1;
+  &:hover {
+    transform: translate(0px,-0.3em);
+    @extend .color-white;
+  }
+  &:active {
+    transform: translate(0px,0.5em);
+  }
+
+  &--large {
+    @extend .ptb-0-5-plr-0-8;
+  }
+  &--extra-large {
+    @extend .ptb-0-5-plr-4;
+  }
+  &--primary {
+    background: $btn--primary;
+    @extend .color-white;
+    &:hover {
+      background: darken($btn--primary, 10%);
+    }
+  }
+  &--create {
+    background: $btn--create;
+    @extend .color-white;
+    &:hover {
+      background: darken($btn--create, 10%);
+    }
+  }
+  &--contact {
+    background: $btn--contact;
+    @extend .color-white;
+    border: 1px $font-white solid;
+    &:hover {
+      background: darken($btn--contact, 10%);
+    }
+  }
+}

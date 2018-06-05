@@ -1,0 +1,36 @@
+.ta-center {
+  text-align: center;
+}
+
+.display-flex {
+  &--alignCenter {
+    align-items: center;
+  }
+  &--justifyCenter {
+    justify-content: center;
+  }
+  &--displayColumn {
+    flex-direction: column;
+  }
+  &--floatedLeft {
+    margin-left: auto;
+  }
+}
+
+@media only screen and (min-width: $screen-md) {
+  .display-flex--displayRowMdUp {
+    flex-direction: row;
+  }
+  .display-flex--displayColumnMdUp {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: $screen-sm-max) {
+  .display-flex--alignCenterSmMaxDown {
+    justify-content: center;
+  }
+  .display-flex--displayRowSmMaxDown {
+    flex-direction: row;
+  }
+}

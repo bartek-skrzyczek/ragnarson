@@ -1,0 +1,29 @@
+a {
+  text-decoration: none; }
+  a.btn {
+    border: none;
+    transition: all 0.3s ease 0s;
+    padding: 0.5em 1em;
+    border-radius: 0.2em;
+    display: block; }
+    a.btn:hover {
+      transform: translate(0px, -0.3em);
+      color: #fff; }
+    a.btn:active {
+      transform: translate(0px, 0.5em); }
+    a.btn.btn__small--primary {
+      background: #3676CD;
+      color: #fff; }
+      a.btn.btn__small--primary:hover {
+        background: #295ea7; }
+    a.btn.btn__small--create {
+      background: #D7345A;
+      color: #fff; }
+      a.btn.btn__small--create:hover {
+        background: #b42445; }
+    a.btn.btn__small--contact {
+      background: transparent;
+      color: #fff;
+      border: 1px #fff solid; }
+      a.btn.btn__small--contact:hover {
+        background: rgba(0, 0, 0, 0); }

@@ -1,0 +1,8 @@
+section.introduction {
+  padding: 5em 0; }
+  section.introduction h1 {
+    font-size: 1.6em; }
+  section.introduction p {
+    font-size: 1em; }
+    section.introduction p span {
+      display: block; }
