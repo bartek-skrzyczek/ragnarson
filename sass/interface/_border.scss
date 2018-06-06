@@ -6,4 +6,7 @@
 
 .border-gray {
   border: 1px $gray-color solid;
+  &--top {
+    border-top: 1px $gray-color solid;
+  }
 }

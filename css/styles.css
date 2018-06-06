@@ -125,7 +125,7 @@ input, select {
   margin-left: auto; }
 
 @media only screen and (min-width: 992px) {
-  .display-flex --displayRowMdUp {
+  .display-flex--displayRowMdUp {
     flex-direction: row; }
   .display-flex--displayColumnMdUp {
     flex-direction: column; }
@@ -180,6 +180,9 @@ input, select {
 
 .pa-1 {
   padding: 1em; }
+
+.ptb-1 {
+  padding: 1em 0; }
 
 .ptb-1-5 {
   padding: 1.5em 0; }
@@ -311,15 +314,22 @@ body {
 
 .border-gray {
   border: 1px #808080 solid; }
+  .border-gray--top {
+    border-top: 1px #808080 solid; }
 
 .no-wrap, .btn {
   white-space: nowrap; }
+
+.position-relative {
+  position: relative; }
 
 .border-white, .btn--contact {
   border: 1px #fff solid; }
 
 .border-gray {
   border: 1px #808080 solid; }
+  .border-gray--top {
+    border-top: 1px #808080 solid; }
 
 .btn {
   transition: all 0.3s ease 0s;
@@ -351,3 +361,14 @@ body {
 
 .user-avatar {
   width: 4em; }
+
+.dot:before {
+  content: "";
+  height: 5px;
+  width: 5px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: -1em;
+  top: 10px; }
