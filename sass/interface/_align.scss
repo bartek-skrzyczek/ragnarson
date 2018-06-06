@@ -18,11 +18,14 @@
 }
 
 @media only screen and (min-width: $screen-md) {
-  .display-flex--displayRowMdUp {
+  .display-flex --displayRowMdUp {
     flex-direction: row;
   }
   .display-flex--displayColumnMdUp {
     flex-direction: column;
+  }
+  .display-flex--floatedLeftMdUp {
+    margin-left: auto;
   }
 }
 

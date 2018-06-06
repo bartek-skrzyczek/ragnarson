@@ -2,7 +2,6 @@
 @import '../interface/padding';
 
 .btn {
-  border: none;
   transition: all 0.3s ease 0s;
   border-radius: 0.2em;
   @extend .display-inline-block;
@@ -22,6 +21,7 @@
   }
   &--extra-large {
     @extend .ptb-0-5-plr-4;
+    @extend .fs-1-5;
   }
   &--primary {
     background: $btn--primary;
@@ -40,7 +40,7 @@
   &--contact {
     background: $btn--contact;
     @extend .color-white;
-    border: 1px $font-white solid;
+    @extend .border-white;
     &:hover {
       background: darken($btn--contact, 10%);
     }

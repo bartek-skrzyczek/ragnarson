@@ -1,0 +1,9 @@
+@import '../variables';
+
+.border-white {
+  border: 1px $color-white solid;
+}
+
+.border-gray {
+  border: 1px $gray-color solid;
+}

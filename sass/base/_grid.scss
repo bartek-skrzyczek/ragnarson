@@ -30,11 +30,13 @@
   @extend .display-grid;
   &--twoContainers-33-66 {
     grid-template-columns: 100%;
+    -ms-grid-columns: 100%;
   }
 }
 
 @media only screen and (min-width: $screen-md) {
   .display-grid--twoContainers-40-60 {
     grid-template-columns: 40% 60%;
+    -ms-grid-columns: 40% 60%;
   }
 }

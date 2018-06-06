@@ -1,9 +1,12 @@
+@import '../interface/border';
+
 .btn {
-  border: none;
   transition: all 0.3s ease 0s;
   border-radius: 0.2em;
   text-decoration: none;
   @extend .display-inline-block;
+  @extend .fs-1;
+  @extend .no-wrap;
   &:hover {
     transform: translate(0px, -0.3em);
   }
@@ -19,6 +22,11 @@
     }
   }
 
+  &--large {
+    @extend .ptb-0-5-plr-3;
+    @extend .fs-1-5;
+  }
+
   &--create {
     @extend .color-white;
     @extend .bg--pink;
@@ -29,9 +37,12 @@
   }
 
   &--contact {
-    @extend .color-white;
     @extend .ptb-0-5-plr-0-8;
-    background: transparent;
-    border: 1px #fff solid;
+    background: $btn--contact;
+    @extend .color-white;
+    @extend .border-white;
+    &:hover {
+      background: darken($btn--contact, 10%);
+    }
   }
 }

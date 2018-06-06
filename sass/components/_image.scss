@@ -1,6 +1,7 @@
 .logo {
   width: 3em;
-  height: auto;
+  height: 2.2em;
+  @extend .flex-shrink-0;
   &--color {
     fill: $alt-color;
   }
@@ -11,6 +12,7 @@
 }
 
 .user-avatar {
-  @extend .width-auto;
+  @extend .flex-shrink-0;
+  width: 4em;
   @extend .height-5 ;
 }
