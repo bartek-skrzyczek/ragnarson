@@ -1,9 +1,9 @@
-live css html preview https://rawgit.com/bartek-skrzyczek/ragnarson/master/app/index.html
-The structure is based on atom css, it is possible to update custom sections by BEM approach
-Tested in Chrome, Firefox and IE 11.
+Live css html preview available https://rawgit.com/bartek-skrzyczek/ragnarson/master/app/index.html
+The structure is based on atom css, it is possible to update custom sections by BEM approach.
+Tested in the last Chrome and Firefox and IE 11.
 
-Design task in design folder + benchmarks.pdf for a reference
+Design task in design folder + benchmarks.pdf for a reference.
 
-The idea refers to a single input / action per page to make the signup process easier for user to process.
+The idea refers to a single input / action per page to make the signup process easier for user to maintain.
 
-Some views are made for demonstration purposes only: dates range for picking set of dates is a bad UX approach, because user does not need to provide set of dates to receive its proposals.
+Some views are made for demonstration purposes only: for example dates range for picking set of dates is a bad UX approach, because user does not need to provide them to receive result proposals, but it was a task's requirement.
