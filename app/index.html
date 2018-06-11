@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
@@ -24,7 +24,7 @@
     <nav class="bg--plain-gray ptb-1-5">
       <div class="container-fluid">
         <div class="row">
-          <ul class="display-flex display-flex--alignCenter">
+          <ul class="display-flex display-flex--alignCenter pa-0">
             <li>
               <a class="display-flex display-flex--alignCenter">
                 <svg class="logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -55,7 +55,7 @@
       <div class="container-fluid">
         <div class="row">
           <h1 class="color-white ta-center fs-1">Nulla sit amet rutrum urna, eu commodo lectus</h1>
-          <ul class="display-flex display-flex--alignCenter display-flex--justifyCenter display-flex--displayColumn display-flex--displayRowMdUp list-style-type-none">
+          <ul class="display-flex display-flex--alignCenter display-flex--justifyCenter display-flex--displayColumn display-flex--displayRowMdUp pa-0 list-style-type-none">
             <li>
               <a href="#" class="text__large btn btn--create ma-0-5">Create account</a>
             </li>
@@ -66,7 +66,7 @@
         </div>
       </div>
     </section>
-    <main class="ptb-5" role="main">
+    <main class="ptb-5">
       <div class="container-fluid">
         <div class="row">
           <div class="display-flex flex-wrap">
@@ -75,7 +75,7 @@
                 <a href="#" class="btn btn--primary btn--large display-flex--alignCenterSmMaxDown">Share post</a>
               </div>
               <h1 class="fs-1-2 ma-tb-1 fw-300">Users who shared this post</h1>
-              <ul class="display-flex display-flex--flex-column--mdUp display-flex--flex-row--SmMaxDown flex-wrap">
+              <ul class="display-flex display-flex--flex-column--mdUp display-flex--flex-row--SmMaxDown flex-wrap pa-0">
                 <li class="display-flex display-flex--alignCenter ma-tb-0-5 display-flex--fullWidthmdUp">
                   <img class="user-avatar" src="images/avatar001.svg" alt="avatar01">
                   <a class="ma-1">
@@ -107,8 +107,8 @@
               <p class="color-gray ma-b-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor venenatis nisi, in aliquet est mollis quis. Sed congue nulla et ligula feugiat luctus. Aliquam ut augue nunc. Curabitur hendrerit, urna quis condimentum fermentum, lacus justo vestibulum urna, a imperdiet sem nulla non lacus. Nullam mattis vehicula lacinia. Etiam rutrum dapibus ipsum, ut egestas sem blandit eu. Vivamus sed eros justo. Cras non tellus feugiat, bibendum nisl id, vestibulum urna. Mauris accumsan luctus tortor, sed convallis ligula vestibulum a. Sed pulvinar interdum urna. Vivamus facilisis sem nec lorem suscipit tincidunt.</p>
               <p class="ma-b-1">Proin tincidunt ut eros at porttitor. Maecenas nec sollicitudin urna, sed iaculis enim. Etiam suscipit imperdiet tortor, nec dignissim turpis consectetur consectetur. Donec a suscipit urna. Nunc posuere elementum cursus. Phasellus tempor odio ac risus aliquet imperdiet. Phasellus ornare viverra lectus. Aliquam malesuada, nulla vel lobortis rutrum, erat mauris efficitur purus, non tincidunt mauris felis eleifend elit. Vivamus a vestibulum erat. Aliquam eget ultrices diam. Aliquam erat volutpat.</p>
               <p class="ma-b-1">Maecenas id ultricies felis. Duis malesuada sagittis iaculis. Vivamus in velit id urna imperdiet fermentum in eget ex. Nulla facilisi. Phasellus neque est, hendrerit nec quam eget, laoreet dapibus sapien. Vivamus arcu neque, faucibus nec nunc eu, pulvinar blandit metus. Nullam interdum dignissim metus a condimentum. Cras molestie facilisis velit nec maximus. Nunc accumsan tortor id enim suscipit, sit amet rutrum nibh tristique. Maecenas pellentesque leo aliquam, facilisis turpis et, vulputate erat. Quisque a fermentum eros, non laoreet libero.</p>
-              <h2 class="fs-1-2 ma-b-1">Comments</h1>
-              <ul class="color-gray">
+              <h2 class="fs-1-2 ma-b-1">Comments</h2>
+              <ul class="color-gray pa-0">
                 <li class="display-flex ma-b-1">
                   <img class="user-avatar ma-r-1" src="images/avatar005.svg" alt="avatar005">
                   <a>
@@ -136,7 +136,7 @@
     <footer class="bg--plain-gray">
       <div class="container-fluid">
         <div class="row">
-          <ul class="display-flex display-flex--alignCenter flex-wrap ptb-1">
+          <ul class="display-flex display-flex--alignCenter flex-wrap ma-0 pa-0 ptb-1">
             <li class="list-style-type-none ma-r-2">
               <a>
                 <svg class="logo logo--color" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -146,17 +146,19 @@
                 </svg>
               </a>
             </li>
-            <ul class="display-flex display-flex--floatedLeftMdUp flex-wrap ptb-1 display-flex--alignCenter list-style-type-none">
-              <li class="ma-r-2">
-                <a href="#">Nam pharetra</a>
-              </li>
-              <li class="dot ma-r-2 position-relative">
-                <a href="#">Morbi dictum</a>
-              </li>
-              <li class="dot position-relative">
-                <a href="#">Fusce at dapibus</a>
-              </li>
-            </ul>
+            <li class="display-flex display-flex--floatedLeftMdUp flex-wrap ptb-1 display-flex--alignCenter list-style-type-none">
+              <ul class="display-flex list-style-type-none">
+                <li class="ma-r-2">
+                  <a href="#">Nam pharetra</a>
+                </li>
+                <li class="dot ma-r-2 position-relative">
+                  <a href="#">Morbi dictum</a>
+                </li>
+                <li class="dot position-relative">
+                  <a href="#">Fusce at dapibus</a>
+                </li>
+              </ul>
+            </li>
           </ul>
           <div class="display-flex display-flex--justifyCenter pa-1 border-gray--top">&copy; Copyright</div>
         </div>
