@@ -1,4 +1,6 @@
 Live css html preview available https://rawgit.com/bartek-skrzyczek/ragnarson/master/app/index.html
+using bootstrap4 live preview available: https://rawgit.com/bartek-skrzyczek/ragnarson/master/app/index-bootstrap.html
+
 The structure is based on atom css, it is possible to update custom sections by BEM approach.
 Tested in the last Chrome and Firefox and IE 11.
 
