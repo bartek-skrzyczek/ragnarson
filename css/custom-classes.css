@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url("../app/fonts/Montserrat-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../app/fonts/Montserrat-Regular.woff2") format("woff2"), url("../app/fonts/Montserrat-Regular.woff") format("woff"); }
+
+body {
+  font-family: 'Montserrat-Regular'; }
+
+:root {
+  --logo-color: #D7345A; }
+
+.logo__main {
+  width: 3em;
+  height: 2.2em; }
+  .logo__main--color {
+    fill: var(--logo-color); }
+
+.bg--main {
+  background-color: #E3E3E3; }
+
+.bg--darkTheme {
+  background: -moz-linear-gradient(top, rgba(39, 44, 55, 0.98) 0%, #272c37 15%, rgba(39, 44, 55, 0.76) 100%);
+  background: -webkit-linear-gradient(top, rgba(39, 44, 55, 0.98) 0%, #272c37 15%, rgba(39, 44, 55, 0.76) 100%);
+  background: linear-gradient(to bottom, rgba(39, 44, 55, 0.98) 0%, #272c37 15%, rgba(39, 44, 55, 0.76) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa272c37', endColorstr='#c2272c37',GradientType=0 ); }
+
+.user__avatar {
+  width: 4em;
+  height: auto; }
+
+.dot:before {
+  content: "";
+  height: 5px;
+  width: 5px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: -14px;
+  top: 10px; }
+
+@media only screen and (max-width: 575px) {
+  .footer__content {
+    justify-content: center !important; }
+  .dot:before {
+    display: none; } }
